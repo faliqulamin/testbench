@@ -1,14 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    
+    "info": {
+        "time": "2024-12-23T20:01:12.9340181+07:00",
+        "devid": "A22S10001",
+        "batteray": 76,
+        "result": true,
+        "msg": ""
+    },
+	"start": {
+        "result": true,
+        "msg": ""
+    },
+    "current": {
+        "result": true,
+        "master_index": 210,
+        "msg": "Test not started"
+    },
+    "stop": {
+        "result": true,
+        "master_index": 270,
+        "msg": ""
+    },
+    "settings": {
+        "ssid": "bojoloro",
+        "password": "bojoloro",
+        "sampling_duration_flow": 10,
+        "devid": "A22100001",
+        "meter_type": "aquadis"
+    }
 }
